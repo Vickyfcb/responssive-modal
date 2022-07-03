@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Responsive Modal</title>
+</head>
+<body>
+    <section class="modal container">
+        <button class="modal__button" id="open-modal">
+            Open Modal
+        </button>
+        <div class="modal__container" id="modal-container">
+            <div class="modal__content">
+                <div class="modal__close close-modal" title="close">
+                    <i class="ri-close-fill"></i>
+                </div>
+                <img src="img/award-removebg-preview.png" alt="" class="modal__img">
+                <h1 class="modal__title">Good Job Victor!</h1>
+                <p class="modal__description">Click the button to close</p>
+                <button class="modal__button modal__button-width">
+                    View Status
+                </button>
+                <button class="modal__button-link close-modal">
+                    close
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
